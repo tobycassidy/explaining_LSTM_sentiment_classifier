@@ -9,7 +9,7 @@ import plotly.figure_factory as ff
 
 df_train = pd.read_csv('./assets/data/processed_train.csv')
 df_test  = pd.read_csv('./assets/data/processed_test.csv')
-model    = tf.keras.models.load_model('assets/trained_model')
+#model   = tf.keras.models.load_model('./assets/trained_model')
 # show train class imbalance
 #x = ['Positive', 'Negative', 'Neutral', 'Extremely Positive', 'Extremely Negative']
 #y = [11422,  9917,  7713,  6624,  5481]
