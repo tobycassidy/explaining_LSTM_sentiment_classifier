@@ -129,13 +129,13 @@ history = model.fit(X_train, y_train,
 # In[10]:
 
 
-model.save('assets/trained_model')
+#model.save('./assets/trained_model')
 
 
 # In[9]:
 
 
-model = tf.keras.models.load_model('assets/trained_model')
+#model = tf.keras.models.load_model('./assets/trained_model')
 
 
 # In[10]:
