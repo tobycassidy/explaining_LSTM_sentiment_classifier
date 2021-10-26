@@ -3,6 +3,11 @@
 This repo intends to visually explain an LSTM twitter sentiment classifier via an interactive python dash dashboard.
 
 ---
+## Sample Output
+---
+![sample output](sample_output.png)
+
+---
 ## Usage
 ---
 ### 1. Data 
